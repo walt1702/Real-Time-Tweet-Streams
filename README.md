@@ -1,3 +1,5 @@
 # Real-Time-Tweet-Streams 
+
 This project was aimed at handling of Real Time Tweet Streams using a Big Data Framework Kafka and database system MongoDB.Apache Kafka is a fast and scalable messaging queue, capable of handling heavy loads in context of read and write, i.e. IO-related, stuff. Apache Kafka requires a running ZooKeeper instance, which is used for reliable distributed coordination. MongoDB is a cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.
+
 Before running the kafka tweet.ipynb file, you need to primarily generate tokens and secret keys in twitter and before running the kafka to mongo.ipynb, make sure zookeeper , kafka and mongoDB are running fine. For configuration and setting up of Kafka and Zookeeper on your machine, do check out https://dzone.com/articles/running-apache-kafka-on-windows-os .For setting up of MongoDB on your machine,check out https://stackoverflow.com/questions/20796714/how-do-i-start-mongo-db-from-windows .Open up the Mongo Shell to check out the database incoming from the tweet stream and you're good to go. 
